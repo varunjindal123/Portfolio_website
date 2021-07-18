@@ -66,7 +66,8 @@
 }
 
 .background{
-    background:rgba(0,0,0,0.7) url('scenery.jpg');
+    background: url(scenery.jpg) ;
+    background-color: rgba(19, 18, 18, 0.555);
     background-size:cover;
     background-blend-mode: darken;
 
@@ -220,7 +221,14 @@ h3 {
     color:#777;
 
 }
-body{font-family: 'Poppins', sans-serif;}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+	font-size: 1rem;
+	color: #fff;
+}
 .navbar{
     display:flex;
     align-items:centre;
@@ -283,8 +291,8 @@ p{
     color:#fff;
     padding:8px 30px;
     margin:30px 0;
-    border radius:30px;
-    transition: background 0.5s;
+    border-radius:30px;
+    transition: 0.5s;
 }
 .btn:hover{
   background:#563434;
@@ -457,7 +465,7 @@ margin-bottom:20px;
     flex:1;
     text-align:center;
 }
-..footer-col-2 img{
+.footer-col-2 img{
     width:180px;
     margin-bottom:20px;
 }
@@ -534,19 +542,19 @@ ul{
 }
 
 .footer-col-1 h3{
-    font-size: 20px;t
+    font-size: 20px;
 }
 
 .footer-col-2 h3{
-    font-size: 20px;t
+    font-size: 20px;
 }
 
 .footer-col-3 h3{
-    font-size: 20px;t
+    font-size: 20px;
 }
 
 .footer-col-4 h3{
-    font-size: 20px;t
+    font-size: 20px;
 }
 .btn-main{
     font-size: 18px;
